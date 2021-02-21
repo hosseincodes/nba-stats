@@ -31,7 +31,7 @@ const Pagination = ({ pages, changePage }) => {
           onClick={() => changePage(playerName, pages.current_page + 1)}
           className="ui right labeled icon button"
         >
-          Page {pages.current_page + 1}
+          صفحه {pages.current_page + 1}
           <i className="right chevron icon"></i>
         </button>
       </Div>
@@ -44,14 +44,14 @@ const Pagination = ({ pages, changePage }) => {
           className="ui labeled icon button"
         >
           <i className="left chevron icon"></i>
-          Page {pages.current_page - 1}
+          صفحه {pages.current_page - 1}
         </button>
         <br />
         <button
           onClick={() => changePage(playerName, pages.current_page + 1)}
           className="ui right labeled icon button"
         >
-          Page {pages.current_page + 1}
+          صفحه {pages.current_page + 1}
           <i className="right chevron icon"></i>
         </button>
       </Div>
@@ -64,7 +64,7 @@ const Pagination = ({ pages, changePage }) => {
           className="ui labeled icon button"
         >
           <i className="left chevron icon"></i>
-          Page {pages.current_page - 1}
+          صفحه {pages.current_page - 1}
         </button>
       </Div>
     );

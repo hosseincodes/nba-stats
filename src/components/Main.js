@@ -58,12 +58,13 @@ class Main extends Component {
   render() {
     return (
       <Grid classname="ui container">
-        <Title>NBA Players Stats</Title>
+        <Title>آمار بازیکنان اتحادیۀ ملی بسکتبال (NBA)</Title>
         <PlayerSearch
-          placeholder="Search for a player"
+          placeholder="جستجوی یک بازیکن"
           onSearch={this.onSearch}
           onSubmit={this.onSubmit}
         />
+        <h4>اسم بازیکن را به انگلیسی وارد کنید</h4>
       </Grid>
     );
   }

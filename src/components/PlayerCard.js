@@ -113,7 +113,7 @@ class PlayerCard extends React.Component {
           <div>
             <SearchWrapper>
               <PlayerSearch
-                placeholder="Search for a player"
+                placeholder="جستجوی یک بازیکن"
                 onSearch={this.onSearch}
                 onSubmit={this.onSubmit}
               />
@@ -125,7 +125,7 @@ class PlayerCard extends React.Component {
 
             <Title>
               <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-                NBA Players Stats
+                آمار بازیکنان اتحادیۀ ملی بسکتبال (NBA)
               </Link>
             </Title>
             <Grid

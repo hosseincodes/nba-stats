@@ -18,7 +18,7 @@ const PlayerList = ({ players, showStats }) => {
                 </div>
                 <div className="ui inverted divider"></div>
                 <div className="description">
-                  Team: {player.team.full_name} | {player.team.abbreviation}
+                  تیم: {player.team.full_name} | {player.team.abbreviation}
                 </div>
               </div>
               <Link to={`/player/stat/${player.id}`}>
@@ -26,7 +26,7 @@ const PlayerList = ({ players, showStats }) => {
                   className="ui bottom attached button"
                   onClick={() => showStats(player.id)}
                 >
-                  Stats
+                  آمار یا وضعیت بازیکن
                 </div>
               </Link>
             </div>

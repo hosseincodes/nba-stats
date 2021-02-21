@@ -12,6 +12,7 @@
 html body {
   background-color: #17408b;
   height: 100vh;
+  direction: rtl;
 }
 
 html {

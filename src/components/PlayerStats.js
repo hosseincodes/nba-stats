@@ -22,7 +22,7 @@ class PlayerStats extends React.Component {
   // Potentially think about using the componentDidUnmount lifecycle method to help destroy the piece of state as we click on more players
   renderTitle = () => {
     if (!this.props.player) {
-      return "...Loading";
+      return "در حال بارگزاری...";
     } else {
       return (
         <div className="ui header">
@@ -39,7 +39,7 @@ class PlayerStats extends React.Component {
     if (this.state.showError) {
       return (
         <h1>
-          Player is inactive or retired{" "}
+          بازیکن غیرفعال یا بازنشسته شده است{" "}
           <span role="img" aria-label="emoji">
             😞
           </span>
@@ -92,7 +92,7 @@ class PlayerStats extends React.Component {
     return (
       <React.Fragment>
         <button onClick={this.handleClick} className="ui button negative">
-          Close
+          بستن
         </button>
       </React.Fragment>
     );
