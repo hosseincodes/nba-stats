@@ -13,7 +13,7 @@ class PlayerSearch extends React.Component {
               id="player"
               placeholder={this.props.placeholder}
             />
-            <i className="search icon"></i>
+            <i class="fas fa-search"></i>
           </div>
         </form>
       </div>
