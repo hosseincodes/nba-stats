@@ -3,7 +3,6 @@ import { Router, Route, Switch } from "react-router-dom";
 import PlayerCard from "./PlayerCard";
 import Main from "./Main";
 import PlayerStats from "./PlayerStats";
-import "../styles/index.css";
 import history from "../history";
 
 const App = () => {

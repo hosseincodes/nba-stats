@@ -60,11 +60,10 @@ class Main extends Component {
       <Grid classname="ui container">
         <Title>آمار بازیکنان اتحادیۀ ملی بسکتبال (NBA)</Title>
         <PlayerSearch
-          placeholder="جستجوی یک بازیکن"
+          placeholder="جستجوی بازیکن (به انگلیسی)"
           onSearch={this.onSearch}
           onSubmit={this.onSubmit}
         />
-        <h4>اسم بازیکن را به انگلیسی وارد کنید</h4>
       </Grid>
     );
   }

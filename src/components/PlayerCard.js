@@ -113,7 +113,7 @@ class PlayerCard extends React.Component {
           <div>
             <SearchWrapper>
               <PlayerSearch
-                placeholder="جستجوی یک بازیکن"
+                placeholder="جستجوی بازیکن (به انگلیسی)"
                 onSearch={this.onSearch}
                 onSubmit={this.onSubmit}
               />
