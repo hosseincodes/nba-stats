@@ -26,9 +26,9 @@ class PlayerStats extends React.Component {
     } else {
       return (
         <div className="ui header">
-          {this.props.player.first_name} {this.props.player.last_name} | HT:{" "}
+          {this.props.player.first_name} {this.props.player.last_name} | قد :{" "}
           {this.props.player.height_feet}"{this.props.player.height_inches} |
-          WT: {this.props.player.weight_pounds} lbs
+          وزن : {this.props.player.weight_pounds} پوند
         </div>
       );
     }

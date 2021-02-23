@@ -18,7 +18,7 @@ const PlayerList = ({ players, showStats }) => {
                 </div>
                 <div className="ui inverted divider"></div>
                 <div className="description">
-                  تیم: {player.team.full_name} | {player.team.abbreviation}
+                  تیم : <span className="description-team">{player.team.full_name} | {player.team.abbreviation}</span>
                 </div>
               </div>
               <Link to={`/player/stat/${player.id}`}>

@@ -88,3 +88,19 @@
   .sc-AxhCb.hnUuzo {
     margin-bottom: 30px;
   }
+
+  .description-team {
+    font-weight: 600;
+}
+
+.description {
+  text-align: center;
+}
+
+.ui.attached.bottom.button {
+  border-radius: 0 0 10px 10px !important;
+}
+
+.ui.card, .ui.cards > .card {
+  border-radius: 10px !important;
+}
