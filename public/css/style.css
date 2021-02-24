@@ -9,88 +9,88 @@
       url("../fonts/IRANSansFaNumLight.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
-  }
-  
-  a,
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  li,
-  ol,
-  div,
-  span,
-  input,
-  button {
-    font-family: "IRANSansFaNum-Light" !important;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  html body {
-    background-image: url('http://files.hosseinakbari506.ir/photo-1504450758481-7338eba7524a.png');
-    background-size: 100%;
-    height: 100vh;
-    direction: rtl;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  .ui.icon.input > i.icon {
-    text-align: right !important;
-  }
-  
-  .ui.input > input {
-    text-align: right;
-  }
-  
-  .mKiQr {
-    text-align: right !important;
-  }
-  
-  .ui.icon.input > input {
-    padding-right: 15px !important;
-    width: 300px;
-    text-align: right;
-  }
-  
-  .cvITpo {
-    text-align: left;
-    margin-top: 40px;
-  }
-  
-  .ui.modal > .content {
-    text-align: right;
-  }
-  
-  .ui.modal > .actions {
-    text-align: left !important;
-  }
-  
-  .header {
-    text-align: center;
-  }
-  
-  .sc-AxhCb.hnUuzo {
-    margin-bottom: 30px;
-  }
+}
 
-  .description-team {
-    font-weight: 600;
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+div,
+span,
+input,
+button {
+  font-family: "IRANSansFaNum-Light" !important;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+html body {
+  background-image: url('http://files.hosseinakbari506.ir/photo-1504450758481-7338eba7524a.png');
+  background-size: 100%;
+  height: 100vh;
+  direction: rtl;
+}
+  
+html {
+  box-sizing: border-box;
+}
+
+.ui.icon.input > i.icon {
+  text-align: right !important;
+}
+  
+.ui.input > input {
+  text-align: right;
+}
+  
+.mKiQr {
+  text-align: right !important;
+}
+  
+.ui.icon.input > input {
+  padding-right: 15px !important;
+  width: 300px;
+  text-align: right;
+}
+  
+.cvITpo {
+  direction: ltr;
+  margin-top: 40px;
+}
+  
+.ui.modal > .content {
+  text-align: right;
+}
+  
+.ui.modal > .actions {
+  text-align: left !important;
+}
+  
+.header {
+  text-align: center;
+}
+  
+.sc-AxhCb.hnUuzo {
+  margin-bottom: 30px;
+}
+
+.description-team {
+  font-weight: 600;
 }
 
 .description {
@@ -103,4 +103,24 @@
 
 .ui.card, .ui.cards > .card {
   border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .sc-Axmtr.kknuJx {
+    text-align: center;
+    line-height: 80px;
+    margin-top: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .mKiQr {
+    text-align: center !important;
+    line-height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .cvITpo {
+    display: block !important;
+    text-align: center;
+  }
 }
