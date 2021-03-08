@@ -64,6 +64,7 @@ class Main extends Component {
           onSearch={this.onSearch}
           onSubmit={this.onSubmit}
         />
+        <span className="footer-links">سورس پروژه در <a target="_blank" href="http://github.com/hosseincodes/nba-stats">گیت هاب</a> / فارسی سازی شده توسط <a target="_blank" href="http://hosseinakbari506.ir">حسین اکبری</a></span>
       </Grid>
     );
   }

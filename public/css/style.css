@@ -124,3 +124,13 @@ html {
     text-align: center;
   }
 }
+
+.footer-links {
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  margin: 0 10px;
+  line-height: 30px;
+}
