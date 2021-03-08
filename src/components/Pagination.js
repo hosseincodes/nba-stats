@@ -32,7 +32,7 @@ const Pagination = ({ pages, changePage }) => {
           className="ui right labeled icon button"
         >
           صفحه {pages.current_page + 1}
-          <i className="right chevron icon"></i>
+          <i className="fas fa-chevron-right icon icon-custom "></i>
         </button>
       </Div>
     );
@@ -43,7 +43,7 @@ const Pagination = ({ pages, changePage }) => {
           onClick={() => changePage(playerName, pages.current_page - 1)}
           className="ui labeled icon button"
         >
-          <i className="left chevron icon"></i>
+          <i className="fas fa-chevron-left icon icon-custom "></i>
           صفحه {pages.current_page - 1}
         </button>
         <br />
@@ -52,7 +52,7 @@ const Pagination = ({ pages, changePage }) => {
           className="ui right labeled icon button"
         >
           صفحه {pages.current_page + 1}
-          <i className="right chevron icon"></i>
+          <i className="fas fa-chevron-right icon icon-custom "></i>
         </button>
       </Div>
     );
@@ -63,7 +63,7 @@ const Pagination = ({ pages, changePage }) => {
           onClick={() => changePage(playerName, pages.current_page - 1)}
           className="ui labeled icon button"
         >
-          <i className="left chevron icon"></i>
+          <i className="fas fa-chevron-left icon icon-custom "></i>
           صفحه {pages.current_page - 1}
         </button>
       </Div>
